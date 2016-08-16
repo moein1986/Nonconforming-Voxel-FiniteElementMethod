@@ -1,5 +1,5 @@
- - in mainNVFEM.m, a monostatic RCS analysis is applied to NASA almond benchmark problem. For this purpose, a 3D mesh of Voxel elements is generated using octree algorithm.
-- Nonconforming Voxel finite element method for wave equation problems is implemented to calculate the nearfield.
+- in mainNVFEM.m, a monostatic RCS analysis is applied to NASA almond benchmark problem. For this purpose, a 3D mesh of Voxel elements is generated using octree algorithm.
+- Nonconforming Voxel finite element method for wave equation problems is implemented to calculate the nearfield data.
 - 1st order Absorbing Boundary Conditions (ABC) is implemented to truncate the computational domain of the problem.
 - nearfield to farfield transformation for cubical domain is implemented to compute the Radar Cross Section (RCS) of the scatterer. 
 - the code for 3D mesh generation with Octree algorithm is also availble upon your request.
