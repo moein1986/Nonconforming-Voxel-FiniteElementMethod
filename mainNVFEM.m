@@ -124,7 +124,7 @@ d_almond=9.936*(2.54/100); % 9.936 inch almond length
 
 tic
 
-OT =OcTreeMeshArbitaryGrid(pts,d_almond,hx,hy,hz,'maxDepth',2);
+OT =OcTreeMeshArbitaryGrid(pts,d_almond,hx,hy,hz,'maxDepth',2); % the Octree mesh generator is available upon your request (check out ReadMe)
 
 toc
 
